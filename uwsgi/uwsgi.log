@@ -633,3 +633,9 @@ Not Found: /login
 [pid: 1249739|app: 0|req: 34/40] 118.89.106.59 () {40 vars in 1054 bytes} [Thu Jul  6 21:10:02 2023] GET /admin/login/?next=/admin/ => generated 4195 bytes in 5 msecs (HTTP/1.0 200) 10 headers in 470 bytes (1 switches on core 0)
 [pid: 1249739|app: 0|req: 35/41] 175.1.115.62 () {36 vars in 959 bytes} [Thu Jul  6 21:10:57 2023] GET /blog/ => generated 323 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 207 bytes (1 switches on core 0)
 [pid: 1249739|app: -1|req: -1/42] 175.1.115.62 () {38 vars in 960 bytes} [Thu Jul  6 21:10:57 2023] GET /static/blog/css/index.css => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+Not Found: /
+[pid: 1249739|app: 0|req: 36/43] 167.94.146.60 () {24 vars in 256 bytes} [Thu Jul  6 21:13:55 2023] GET / => generated 2168 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /
+[pid: 1249739|app: 0|req: 37/44] 167.94.146.60 () {30 vars in 391 bytes} [Thu Jul  6 21:13:56 2023] GET / => generated 2168 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
+Not Found: /*
+[pid: 1249739|app: 0|req: 38/45] 167.94.146.60 () {22 vars in 225 bytes} [Thu Jul  6 21:13:57 2023] PRI * => generated 1753 bytes in 5 msecs (HTTP/2.0 404) 6 headers in 215 bytes (1 switches on core 0)
