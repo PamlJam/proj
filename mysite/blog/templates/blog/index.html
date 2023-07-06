@@ -1,0 +1,17 @@
+{% load static %}
+<!-- 辅助补全静态文件的绝对路径 -->
+<link rel="stylesheet" href="{% static 'blog/css/index.css' %}">
+
+{% if article_list %}
+<!-- 如果文章列表不为空 -->
+    {% for article in article_list %}
+    <!-- 遍历列表 -->
+        <h1>{{ article.title }}</h1>
+        <!-- 获取标题 -->
+        <p>{{ article.text }}</p>
+        <!-- 获取正文 -->
+        <hr>
+    {% endfor %}
+{% else %}
+    <p>没有文章</p>
+{% endif %}
