@@ -639,3 +639,4 @@ Not Found: /
 [pid: 1249739|app: 0|req: 37/44] 167.94.146.60 () {30 vars in 391 bytes} [Thu Jul  6 21:13:56 2023] GET / => generated 2168 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 215 bytes (1 switches on core 0)
 Not Found: /*
 [pid: 1249739|app: 0|req: 38/45] 167.94.146.60 () {22 vars in 225 bytes} [Thu Jul  6 21:13:57 2023] PRI * => generated 1753 bytes in 5 msecs (HTTP/2.0 404) 6 headers in 215 bytes (1 switches on core 0)
+[pid: 1249739|app: 0|req: 39/46] 118.89.106.59 () {38 vars in 729 bytes} [Thu Jul  6 21:14:53 2023] GET /blog/ => generated 323 bytes in 2 msecs (HTTP/1.0 200) 6 headers in 207 bytes (1 switches on core 0)
