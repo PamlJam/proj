@@ -12,3 +12,15 @@ def index(request):
         'article_list': ls,
     }
     return render(request, 'blog/index.html', context)
+
+
+from django.shortcuts import get_object_or_404
+
+def detail(request, article_id):
+    a = get_object_or_404(Article, id = article_id)
+    
+    context = {
+        'article': a,
+    }
+
+    return render(request, 'blog/detail.html', context)
